@@ -27,4 +27,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 ## Resultado
 
-![](https://github.com/KarenHernandez08/Encriptador/Encriptador/blob/main/images/encriptador.png)
+![](https://github.com/KarenHernandez08/Encriptador/blob/main/Encriptador/images/encriptador.png)
+![](https://github.com/KarenHernandez08/Encriptador/blob/main/Encriptador/images/desencriptar.png)
+![](https://github.com/KarenHernandez08/Encriptador/blob/main/Encriptador/images/resultado.png)
+
