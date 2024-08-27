@@ -1,0 +1,518 @@
+* {
+  padding: 0;
+  margin:0;
+  background: #E5E5E5
+}
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  /* Light blue/light-blue-100 */
+  
+}
+
+
+.btn-encriptar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1.5rem;
+
+  position: static;
+  width: 20.5rem;
+  height: 4.18rem;
+  left: 0px;
+  top: 0px;
+
+  /* Dark blue/dark-blue-300 */
+
+  background: #0A3871;
+  border-radius: 24px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  flex-grow: 0;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 16px;
+  font-size: 28px;
+  line-height: 19px;
+  justify-content: center; 
+
+}
+
+.btn-desencriptar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1.5rem;
+
+  position: static;
+  width: 20.5rem;
+  height: 4.18rem;
+  left: 22rem;
+  top: 0px;
+
+  /* Light gray */
+
+  background: #D8DFE8;
+  /* Dark blue/dark-blue-300 */
+
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 24px;
+
+  color: #0A3871;
+  font-style: normal;
+  font-weight: 16px;
+  font-size: 28px;
+  line-height: 19px;
+  justify-content: center;
+}
+
+.text-entrada {
+  /* Digite seu texto */
+  text-transform:lowercase;
+  position: absolute;
+  width: 37.5rem;
+  height: 25rem;
+  left: 15%;
+  top: 10.5rem;
+
+  font-style: normal;
+  font-weight: 16px;
+  font-size: 32px;
+  line-height: 150%;
+  justify-content: baseline;
+  /* identical to box height, or 48px */
+  resize: none;
+
+  /* Dark blue/dark-blue-300 */
+
+  color: #0A3871;
+  background: transparent;
+  border: none;
+  }
+::placeholder { color: #0A3871; }
+
+.text-entrada:focus { 
+    border: none;
+    outline: none;
+   }
+
+.caja-mensaje{
+  position: absolute;
+  width: 25rem;
+  height: 46rem;
+  left: 70%;
+  top: 20px;
+  padding-left: 20px;
+  padding-top: 80px;
+  /* White */
+
+  background: #FFFFFF;
+  /* shadow */
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  }
+.caja-mensaje h2{
+  position: static;
+  width: 21rem;
+  height: 3.6rem;
+  left: 0px;
+  top: 0px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 120%;
+  /* or 29px */
+
+  text-align: center;
+
+  /* Gray/gray-500 */
+
+  color: #343A40;
+  background: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.caja-mensaje h3{
+  position: static;
+  width: 21rem;
+  height: 48px;
+  left: 0px;
+  top: 74px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 16px;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* Gray/gray-300 */
+
+  color: #495057;
+  background: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.caja-mensaje-div, .caja-mensaje-div img {
+  padding-top: 40px;
+  background: #FFFFFF;
+}
+
+.img-alerta{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+ label {
+  position: static;
+  width: auto;
+  height: 18px;
+  left: 24px;
+  top: 0px;
+  padding-left: 25px;
+  font-weight: 600;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-size:20px;
+  line-height: 100%;
+
+  /* identical to box height, or 18px */
+  
+  
+  /* Gray/gray-300 */
+  color: #495057;
+ }
+.alerta{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 13%;
+  top: 651px;
+  
+ }
+ .botones{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 12%;
+  top: 685px;
+ }
+.logo{
+  position: absolute;
+  left: 30px;
+  right: 37.43%;
+  top: 25px;
+  bottom: 0%;
+
+}
+.div-mensaje{
+  position: absolute;
+  width: 400px;
+  height: 781px;
+  left: 60px;
+  top: 52px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 36px */
+  resize: none;
+
+  /* Gray/gray-400 */
+
+  color: #495057;
+  border:none;
+  background:transparent;
+}
+.div-mensaje:focus { 
+  border: none;
+  outline: none;
+ }
+.btn-copiar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 25px;
+  top: 660px;
+
+/* Dark blue/dark-blue-300 */
+
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+ 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 19px;
+  text-align: center;
+  
+  /* Dark blue/dark-blue-300 */
+  
+  color: #0A3871;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 8px;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1590px){ 
+main{
+  height:100%;
+}
+.text-entrada{
+  top:8rem;
+  left:7.1rem;
+  word-wrap: break-word;
+  } 
+.logo{
+  left:1rem;
+  width:8%;
+}
+.botones{
+  top:34.5rem;
+  left:5rem;
+}
+.alerta{
+  left:7.3rem;
+  top:32rem;
+}
+.btn-encriptar,.btn-desencriptar{
+  font-size:24px;
+  height:65px;
+}
+.caja-mensaje{
+  top: 1.5rem;
+  height:38rem;
+  left:56rem;
+}
+.caja-mensaje-div{
+  padding-top:0rem;
+  height:20rem;
+  padding-left:1rem;
+}
+.caja-mensaje-div img{
+  width:18rem;
+  padding-left: 1.5rem;
+}
+.btn-copiar{
+  top:33rem;
+  height:64px;
+  font-size:24px;
+}
+.div-mensaje{
+  width: 20rem;
+  left:2.5rem;
+  word-wrap: break-word;
+}
+
+} 
+@media only screen and (min-width: 481px) and (max-width: 999px){ 
+  main{
+    height:100%;
+  }
+  .text-entrada{
+    width:34rem;
+    top:10rem;
+    left:5.1rem;
+    } 
+  .logo{
+    top: 3rem;
+    left:2.8rem;
+    width:18%;
+  }
+  .botones{
+    top:32.5rem;
+    left:4rem;
+  }
+  .alerta{
+    left:5.3rem;
+    top:30rem;
+  }
+  .btn-encriptar,.btn-desencriptar{
+    width: 280px;
+    font-size:24px;
+    height:65px;
+    margin: 0.5rem;
+
+  }
+  .caja-mensaje{
+    
+    width:36rem;
+    left:4.3rem;
+    top:40rem;
+    padding:0;
+    height:100%
+
+  }
+  .caja-mensaje-div{
+    padding-top:1rem;
+    height:auto;
+    border-radius: 32px;
+    padding-left: 5.5rem;
+  }
+  .caja-mensaje-div h2,h3{
+    font-size:24px;
+    width:80%;
+    margin: 0.5rem;
+    height:auto;
+    
+  }
+  .caja-mensaje-div img{
+    display: none;
+  }
+  .btn-copiar{
+    top:24rem;
+    width:32rem;
+    height:65px;
+    font-size:24px;
+  }
+  .div-mensaje{
+    height:auto;
+    left:2.5rem;
+    flex: 1 1 auto;
+  }
+  } 
+@media only screen and (min-device-width : 96px) and (max-device-width : 480px){ 
+    main{
+      height:100%;
+    }
+    .text-entrada{
+      width:20rem;
+      top:8rem;
+      left:1.5rem;
+      font-size: 22px;
+      word-wrap: break-word;
+      } 
+    .logo{
+      top: 1rem;
+      left: -1.5rem;
+      width:25%;
+    }
+    .botones{     
+      flex-direction: column;
+      top:25.5rem;
+      left:1rem;
+    }
+    .alerta{
+      left:2.3rem;
+      top:24rem;
+    }
+    label{
+      font-size:12px;
+    }
+    .btn-encriptar,.btn-desencriptar{
+      width: 320px;
+      font-size:20px;
+      height:65px;
+      margin: 0.5rem;
+    }
+    .caja-mensaje{
+      
+      width:20rem;
+      left:1.5rem;
+      top:37rem;
+      padding:0;
+      height:6rem;
+  
+    }
+    .caja-mensaje-div{
+      padding-top:0.5rem;
+      height:auto;
+      border-radius: 32px;
+      padding-left: 1.5rem;
+    }
+    .caja-mensaje-div h2{
+      font-size:14px;
+      width:80%;
+      margin: 0.5rem;
+      height:100%;
+      
+    }
+    .caja-mensaje-div h3{
+      font-size:12px;
+      width:80%;
+      margin: 0.5rem;
+      height:100%;
+      
+    }
+    .caja-mensaje-div img{
+      display: none;
+    }
+    .btn-copiar{
+      top:8rem;
+      width: 320px;
+      height:62px;
+      font-size:20px;
+      left:-0.5rem;
+    }
+    .div-mensaje{
+      width: 17rem;
+      top: 0.5rem;
+      height:8rem;
+      left:1.5rem;
+      font-size: 14px;
+      word-wrap: break-word;
+    }
+  } 
