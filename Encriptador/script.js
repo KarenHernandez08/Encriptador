@@ -77,7 +77,7 @@ function inputverificar() {
   inputPalavra.addEventListener("keypress", function (e) {
     var keyCode = (e.keyCode ? e.keyCode : e.which);
 
-    if (keyCode > 47 && keyCode < 65) {
+    if (keyCode > 47 && keyCode < 120) {
       e.preventDefault();
     }
   });
